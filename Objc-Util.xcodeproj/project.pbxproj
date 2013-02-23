@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CD558B5516D92373005D4B97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558B5416D92373005D4B97 /* Cocoa.framework */; };
 		CD558B5F16D92373005D4B97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD558B5D16D92373005D4B97 /* InfoPlist.strings */; };
-		CD558B6316D92373005D4B97 /* Objc_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558B6216D92373005D4B97 /* Objc_Util.m */; };
 		CD558B6B16D92374005D4B97 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558B6A16D92373005D4B97 /* SenTestingKit.framework */; };
 		CD558B6C16D92374005D4B97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558B5416D92373005D4B97 /* Cocoa.framework */; };
 		CD558B6F16D92374005D4B97 /* Objc-Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558B5116D92373005D4B97 /* Objc-Util.framework */; };
@@ -38,7 +37,6 @@
 		CD558B5E16D92373005D4B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD558B6016D92373005D4B97 /* Objc-Util-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Util-Prefix.pch"; sourceTree = "<group>"; };
 		CD558B6116D92373005D4B97 /* Objc_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objc_Util.h; sourceTree = "<group>"; };
-		CD558B6216D92373005D4B97 /* Objc_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_Util.m; sourceTree = "<group>"; };
 		CD558B6916D92373005D4B97 /* Objc-UtilTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objc-UtilTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD558B6A16D92373005D4B97 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CD558B7216D92374005D4B97 /* Objc-UtilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-UtilTests-Info.plist"; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				CD558B6116D92373005D4B97 /* Objc_Util.h */,
-				CD558B6216D92373005D4B97 /* Objc_Util.m */,
 				CD558B5B16D92373005D4B97 /* Supporting Files */,
 			);
 			path = "Objc-Util";
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD558B6316D92373005D4B97 /* Objc_Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +439,7 @@
 				CD558B7D16D92374005D4B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD558B7E16D92374005D4B97 /* Build configuration list for PBXNativeTarget "Objc-UtilTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +448,7 @@
 				CD558B8016D92374005D4B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
