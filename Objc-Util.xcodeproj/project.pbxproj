@@ -15,6 +15,7 @@
 		CD558B6F16D92374005D4B97 /* Objc-Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558B5116D92373005D4B97 /* Objc-Util.framework */; };
 		CD558B7516D92374005D4B97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD558B7316D92374005D4B97 /* InfoPlist.strings */; };
 		CD558B7816D92374005D4B97 /* Objc_UtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558B7716D92374005D4B97 /* Objc_UtilTests.m */; };
+		CD558B8116D923C3005D4B97 /* Objc_Util.h in Headers */ = {isa = PBXBuildFile; fileRef = CD558B6116D92373005D4B97 /* Objc_Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD558B8116D923C3005D4B97 /* Objc_Util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +334,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -359,7 +361,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -374,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objc-Util/Objc-Util-Prefix.pch";
 				INFOPLIST_FILE = "Objc-Util/Objc-Util-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -389,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objc-Util/Objc-Util-Prefix.pch";
 				INFOPLIST_FILE = "Objc-Util/Objc-Util-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
