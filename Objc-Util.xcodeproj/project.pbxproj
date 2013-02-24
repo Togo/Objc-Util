@@ -15,6 +15,11 @@
 		CD558B7516D92374005D4B97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD558B7316D92374005D4B97 /* InfoPlist.strings */; };
 		CD558B7816D92374005D4B97 /* Objc_UtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558B7716D92374005D4B97 /* Objc_UtilTests.m */; };
 		CD558B8116D923C3005D4B97 /* Objc_Util.h in Headers */ = {isa = PBXBuildFile; fileRef = CD558B6116D92373005D4B97 /* Objc_Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD558BFD16DA1582005D4B97 /* NSAlert+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = CD558BFB16DA1582005D4B97 /* NSAlert+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD558BFE16DA1582005D4B97 /* NSAlert+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558BFC16DA1582005D4B97 /* NSAlert+Blocks.m */; };
+		CD558C0116DA1B73005D4B97 /* NSAlert_BlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558C0016DA1B73005D4B97 /* NSAlert_BlocksTests.m */; };
+		CD558C0316DA78F4005D4B97 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558C0216DA78F4005D4B97 /* OCMock.framework */; };
+		CD558C0516DA7B7D005D4B97 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD558C0216DA78F4005D4B97 /* OCMock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,19 @@
 			remoteInfo = "Objc-Util";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD558C0416DA7B6D005D4B97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CD558C0516DA7B7D005D4B97 /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD558B5116D92373005D4B97 /* Objc-Util.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Objc-Util.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +61,11 @@
 		CD558B7416D92374005D4B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD558B7616D92374005D4B97 /* Objc_UtilTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objc_UtilTests.h; sourceTree = "<group>"; };
 		CD558B7716D92374005D4B97 /* Objc_UtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_UtilTests.m; sourceTree = "<group>"; };
+		CD558BFB16DA1582005D4B97 /* NSAlert+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+Blocks.h"; sourceTree = "<group>"; };
+		CD558BFC16DA1582005D4B97 /* NSAlert+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+Blocks.m"; sourceTree = "<group>"; };
+		CD558BFF16DA1B73005D4B97 /* NSAlert_BlocksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlert_BlocksTests.h; sourceTree = "<group>"; };
+		CD558C0016DA1B73005D4B97 /* NSAlert_BlocksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAlert_BlocksTests.m; sourceTree = "<group>"; };
+		CD558C0216DA78F4005D4B97 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = "Objc-UtilTests/OCMock.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +84,7 @@
 				CD558B6B16D92374005D4B97 /* SenTestingKit.framework in Frameworks */,
 				CD558B6C16D92374005D4B97 /* Cocoa.framework in Frameworks */,
 				CD558B6F16D92374005D4B97 /* Objc-Util.framework in Frameworks */,
+				CD558C0316DA78F4005D4B97 /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +113,7 @@
 		CD558B5316D92373005D4B97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD558C0216DA78F4005D4B97 /* OCMock.framework */,
 				CD558B5416D92373005D4B97 /* Cocoa.framework */,
 				CD558B6A16D92373005D4B97 /* SenTestingKit.framework */,
 				CD558B5616D92373005D4B97 /* Other Frameworks */,
@@ -111,6 +136,8 @@
 			children = (
 				CD558B6116D92373005D4B97 /* Objc_Util.h */,
 				CD558B5B16D92373005D4B97 /* Supporting Files */,
+				CD558BFB16DA1582005D4B97 /* NSAlert+Blocks.h */,
+				CD558BFC16DA1582005D4B97 /* NSAlert+Blocks.m */,
 			);
 			path = "Objc-Util";
 			sourceTree = "<group>";
@@ -130,6 +157,8 @@
 			children = (
 				CD558B7616D92374005D4B97 /* Objc_UtilTests.h */,
 				CD558B7716D92374005D4B97 /* Objc_UtilTests.m */,
+				CD558BFF16DA1B73005D4B97 /* NSAlert_BlocksTests.h */,
+				CD558C0016DA1B73005D4B97 /* NSAlert_BlocksTests.m */,
 				CD558B7116D92374005D4B97 /* Supporting Files */,
 			);
 			path = "Objc-UtilTests";
@@ -152,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD558B8116D923C3005D4B97 /* Objc_Util.h in Headers */,
+				CD558BFD16DA1582005D4B97 /* NSAlert+Blocks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +214,7 @@
 				CD558B6416D92373005D4B97 /* Sources */,
 				CD558B6516D92373005D4B97 /* Frameworks */,
 				CD558B6616D92373005D4B97 /* Resources */,
+				CD558C0416DA7B6D005D4B97 /* CopyFiles */,
 				CD558B6716D92373005D4B97 /* ShellScript */,
 			);
 			buildRules = (
@@ -276,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD558BFE16DA1582005D4B97 /* NSAlert+Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD558B7816D92374005D4B97 /* Objc_UtilTests.m in Sources */,
+				CD558C0116DA1B73005D4B97 /* NSAlert_BlocksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +447,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Objc-UtilTests\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objc-Util/Objc-Util-Prefix.pch";
 				INFOPLIST_FILE = "Objc-UtilTests/Objc-UtilTests-Info.plist";
@@ -427,7 +463,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Objc-UtilTests\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objc-Util/Objc-Util-Prefix.pch";
 				INFOPLIST_FILE = "Objc-UtilTests/Objc-UtilTests-Info.plist";

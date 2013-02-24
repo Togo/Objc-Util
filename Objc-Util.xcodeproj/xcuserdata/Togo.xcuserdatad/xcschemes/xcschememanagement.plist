@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GHTestBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GHUnitTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Objc-Util.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>CD558B6816D92373005D4B97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD558BB216DA1293005D4B97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD558BCB16DA1294005D4B97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD558BE316DA12C2005D4B97</key>
 		<dict>
 			<key>primary</key>
 			<true/>

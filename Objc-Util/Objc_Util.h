@@ -6,8 +6,4 @@
 //  Copyright (c) 2013 Tobias Sommer. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface Objc_Util : NSObject
-
-@end
+#import "NSAlert+Blocks.h"
