@@ -49,8 +49,8 @@
   [self beginSheetModalForWindow:window modalDelegate:self didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:) contextInfo:nil];
 }
 
-- (void)alertDidEnd:(NSAlert *)alert returnCode:(NSInteger)returnCode
-        contextInfo:(void *)contextInfo {
+- (void) alertDidEnd:(NSAlert *)alert returnCode:(NSInteger)returnCode
+        contextInfo :(void *)contextInfo {
   
 }
 
