@@ -20,6 +20,8 @@
 		CD558C0116DA1B73005D4B97 /* NSAlert_BlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558C0016DA1B73005D4B97 /* NSAlert_BlocksTests.m */; };
 		CD558C0316DA78F4005D4B97 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD558C0216DA78F4005D4B97 /* OCMock.framework */; };
 		CD558C0516DA7B7D005D4B97 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD558C0216DA78F4005D4B97 /* OCMock.framework */; };
+		CD558C1516DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = CD558C1316DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD558C1616DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CD558C1416DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		CD558BFF16DA1B73005D4B97 /* NSAlert_BlocksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlert_BlocksTests.h; sourceTree = "<group>"; };
 		CD558C0016DA1B73005D4B97 /* NSAlert_BlocksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAlert_BlocksTests.m; sourceTree = "<group>"; };
 		CD558C0216DA78F4005D4B97 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = "Objc-UtilTests/OCMock.framework"; sourceTree = "<group>"; };
+		CD558C1316DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGUTIL_TableColumnIdentifier.h; sourceTree = "<group>"; };
+		CD558C1416DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGUTIL_TableColumnIdentifier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				CD558B5B16D92373005D4B97 /* Supporting Files */,
 				CD558BFB16DA1582005D4B97 /* NSAlert+Blocks.h */,
 				CD558BFC16DA1582005D4B97 /* NSAlert+Blocks.m */,
+				CD558C1316DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.h */,
+				CD558C1416DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.m */,
 			);
 			path = "Objc-Util";
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			files = (
 				CD558B8116D923C3005D4B97 /* Objc_Util.h in Headers */,
 				CD558BFD16DA1582005D4B97 /* NSAlert+Blocks.h in Headers */,
+				CD558C1516DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD558BFE16DA1582005D4B97 /* NSAlert+Blocks.m in Sources */,
+				CD558C1616DE8C12005D4B97 /* TGUTIL_TableColumnIdentifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +387,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -406,8 +416,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
